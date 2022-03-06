@@ -14,4 +14,4 @@ Algorithm: first query watched movies and undwatched movies, then, for each unwa
   Run make_recommendations.py 
 
 
-
+IBM Cognitive class based project
