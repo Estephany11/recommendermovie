@@ -5,10 +5,12 @@ The recommendation algorithm is content filtering based that use Jaccard similar
 Algorithm: first query watched movies and undwatched movies, then, for each unwatched movi, calculate the max similarity between all watched movies. If its max similarity is greater than a treshold, then we update its recommended field. 
 
 
-1 - Create your own watched movie history
+1 - Create your own watched movie history: 
+
   In /admin login with superuser credentials. Select movies you have watched and mark them. Repeat the process
  
-2 - Generate recommendations
+2 - Generate recommendations:
+
   Run make_recommendations.py 
 
 
